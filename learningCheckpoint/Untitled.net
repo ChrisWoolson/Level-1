@@ -1,0 +1,11 @@
+*
+V1 VBatt 0 9
+R1 VBatt Vd1 333.33
+D1 Vd1 Vd2 WP710A10QBC-2
+D2 Vd2 0 WP710A10QBC-2
+.model D D
+.lib /Users/league/Library/Application Support/LTspice/lib/cmp/standard.dio
+.lib WP710A10QBC.SP3
+.tran 0 1ms 0 1us startup
+.backanno
+.end
