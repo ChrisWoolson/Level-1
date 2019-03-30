@@ -1,0 +1,8 @@
+* /Users/league/Desktop/Level-1/AudioAmplifier lab.asc
+Vbias N001 0 9V
+R1 N001 Vmic 2.2K
+V1 Vmic 0 SINE(8.6 300m 1K)
+C2 Vs1 Vmic .0000001
+.tran 0 10ms 5ms 10us
+.backanno
+.end
