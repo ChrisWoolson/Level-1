@@ -1,4 +1,4 @@
-*
+* /Users/league/Desktop/Level-1/Lesson 22/LC circuit.asc
 V1 N001 0 PULSE(0 1 0 1u 1u 3.179m 6.358m)
 L1 N001 Vc 100µ Ipk=1 Rser=85m Rpar=infin. Cpar=0 mfg="Coiltronics" pn="CTX100-1-52"
 C1 Vc 0 10µ
